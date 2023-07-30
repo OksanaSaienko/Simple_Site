@@ -42,7 +42,6 @@
         font-style: normal;
         line-height: 164.063%;
         letter-spacing: 1.6px;
-            /* margin-right: 28px; */
     }
         
     .homepage {
@@ -91,10 +90,8 @@
         letter-spacing: 0em;
         text-align: left;
         color: #727272;
-        padding: 0 5px;
     }
-    
-    
+
     .box-540 {
         max-width: 540px;
     }
@@ -127,10 +124,14 @@
         letter-spacing: 0em;
     }
     
-    .text--center {
+    .text-center {
         text-align: center;
     }
 
+    .padding-5px {
+        padding: 0 5px;
+    }
+    
     /* style section 2  */
     .section_2 {
         padding: 112px 0 100px
@@ -160,7 +161,8 @@
         max-width: 103px;
         color: #FFF
     }
-
+   
+    /* style section 4 */
     .section_4 { 
         padding: 100px;
         background: #EEEFF1;
@@ -177,7 +179,7 @@
         height: 600px;
         display: block;
     }
-
+     /* style footer */
     .footer {
         background-color: #34547A;
         padding: 50px;
@@ -185,16 +187,18 @@
     }
 
     h3 {
-        color: #FFF;
         font-size: 21px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
     }
 
-    h4 {
+    .text-footer {
         font-size: 13px;
         font-weight: 400;
         line-height: 21px;
+    }
+
+    .footer-text-margin {
         margin-top: 20px;
     }
